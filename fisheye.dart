@@ -22,7 +22,7 @@ img.Image fisheye(img.Image input) {
         var yNew = ynNew * (h / 2);
         var iNew = (h - (yNew + (h / 2))).round();
         var jNew = (xNew + (w / 2)).round();
-        output.setPixel(jNew, iNew, input.getPixel(j, i));
+        output.setPixel(j, i, input.getPixel(jNew, iNew));
       }
     }
   }
