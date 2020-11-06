@@ -1,6 +1,6 @@
 # Fisheye Converter
 
---programmed by Sina Kamali at University of Tehran for the EC course--
+--programmed by Sina Kamali at University of Tehran for the EM course--
 
 # Summery #
 
